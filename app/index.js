@@ -1,1 +1,14 @@
-console.log('App working: open app/index.js to start exploring ES6');
+import SuperPerson from './person';
+
+const Joe = new SuperPerson('Joe', 'Jump over anything');
+const Julia = new SuperPerson('Julia', 'Go invisible');
+
+Joe.greet();
+Julia.greet();
+
+Joe.saySuperPower();
+Julia.saySuperPower();
+
+
+
+
